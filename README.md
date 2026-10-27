@@ -32,9 +32,9 @@ las celdas.
 
 ## Ejecutar la Fase C
 
-En VS Code, seleccionar el interprete `.venv\Scripts\python.exe` y abrir `entrega/fase_c_sql.ipynb`.
+En VS Code, seleccionar el interprete `.venv\Scripts\python.exe` y abrir `entrega/fase_c_modelos.ipynb`.
 
-Ejecutar las celdas en orden. El notebook carga el Parquet original directamente con DuckDB y presenta seis consultas SQL analiticas, cada una con su tabla e interpretacion. La ruta se resuelve automaticamente desde la raiz del proyecto o desde la carpeta `entrega`.
+Ejecutar las celdas en orden. El notebook entrena y compara los tres modelos supervisados asignados a la Persona 4, con validacion cruzada sobre entrenamiento, evaluacion en test, validacion temporal y analisis de umbral.
 
 ## Ejecutar la Fase D
 
